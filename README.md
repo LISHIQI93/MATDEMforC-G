@@ -2,21 +2,25 @@
 
 ## About software: **MatDEM**
 
-MatDEM, a general discrete element software for rock-soil body developed by Nanjing University with fully independent intellectual property rights, uses the original matrix computing of discrete element method to realize the fast discrete element simulation of millions of particles and complete the large-scale three-dimensional numerical simulation of discrete element in a few hours. Based on the original theory, the software has realized the automatic modeling of discrete element materials, as well as the energy conservation calculation of discrete element system, etc, which has made a major breakthrough. The software combines pre-processing, computing, post-processing, and powerful secondary development to provide a complete functional interface and an efficient computing engine that can complete complex multi-field coupling simulations through secondary development.
+MatDEM is a comprehensive discrete element software developed by Nanjing University, featuring fully independent intellectual property rights. It employs original matrix-based computation methods to achieve rapid simulations of millions of particles and enables large-scale three-dimensional numerical simulations of discrete elements in a matter of hours. Building upon the original theory, the software has achieved significant advancements by implementing automatic modeling of discrete element materials and incorporating energy conservation calculations for discrete element systems, among other notable features. The software integrates pre-processing, computing, and post-processing functionalities along with robust support for secondary development. This comprehensive approach delivers a fully functional interface and an efficient computing engine capable of executing complex multi-field coupling simulations.
 
-MatDEM is written by Matlab language,so in theory,as long as your operating system which can run Matlab can run MatDEM,including Windows,Linux,Unix and Mac OS,etc.Currently, the vast majority of MatDEM users use Windows systems, so only the Windows version of MatDEM is compiled and maintained, and if required, additional versions for other systems will be added in the future.
+MatDEM is  written by Matlab language, allowing it to run on various operating systems such as Windows, Linux, Unix, and Mac OS. Currently, the Windows version of MatDEM is the primary version available, as it is the most commonly used by the majority of users. However, additional versions for other operating systems may be developed and maintained in the future.
 
-Secondary development of MatDEM based on Matlab language,which need to install Matlab runtime environment,MatDEM_v3.20 and above versions are required to install the R2021A version.MATLAB runtime environment is free which can be downloaded in Matlab official website and installation. If you want to download the latest version of MatDEM, please to the website: http://matdem.com.
+
+For the secondary development of MatDEM, the installation of the Matlab runtime environment is required. Specifically, MatDEM_v3.20 and above versions require the R2021A version of the MATLAB runtime environment. The MATLAB runtime environment is freely available for download from the official Matlab website and can be installed separately. To access the latest version of MatDEM, please visit the website: http://matdem.com.
 
 ## **Running of MatDEM software**
 
-1. Please download folder named "MatDEM3.20(2021a runtime)", and double-click the application named "MatDEM.exe"
-1. After MatDEM software starts running, go to the "main program", you can double-click to open the "code" in the working folder on its right
-1. Double-click the code (named step 1~3) and click the "Run commands" below the code bar
-    * These three codes need to be run in order
-1. The code "step 1" is accumulation modeling, that is, to establish a geological accumulation body through gravity deposition and compaction
-1. The code "step 2" is model cutting and material setting
-1. The code "step 3" is load and calculation
-1. After the calculation, the post-processing module can be used to output the results
+1. Download the folder named "MatDEM3.20(2021a runtime)" and locate the application named "MatDEM.exe."
+1. Double-click the "MatDEM.exe" application to launch the MatDEM software.
+1. Once the MatDEM software is running, navigate to the "main program" and double-click to open the "code" located in the working folder on the right side of the interface.
+1. Double-click each code file (named step 1~3) and click the "Run commands" button located below the code bar.
+1. The three codes should be executed in order.
+1. The "step 1" code performs accumulation modeling, creating a geological accumulation body through gravity deposition and compaction.
+1. The "step 2" code handles model cutting and material settings.
+1. The "step 3" code manages the loading and calculation processes.
+1. After the calculations are completed, the post-processing module can be used to generate and output the desired results.
+Note: Once the iteration has started, the program should not be terminated. If it becomes necessary to force termination, the MatDEM task can be ended using the task manager.
+
 
 **Notes:The program cannot be terminated after starting the iteration. If you need to force the termination, you can end the task with Matdem in the task manager.**
